@@ -1,0 +1,57 @@
+.mapcard{
+    width: 100%;
+   height: 100%;
+   background-color: rgb(255,245,238);
+  
+    img{
+       width: 100%;
+       height: 400px;
+      
+    }
+    .maptext{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+       text-align: center;
+       padding: 100px;
+       color: rgb(32,108,90);
+       p{
+        
+        font-family: 'Crimson Text', serif;
+        font-style: italic;
+    }
+    h1{
+        font-family: 'Quicksand', sans-serif;
+
+    }
+    }
+    button{
+        background-color: rgb(231, 211, 202);
+        border-radius: 8px;
+        width: 130px;
+        height: 40px;
+        border: none;
+        color: black
+
+    }
+    .mapinf{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+       text-align: center;
+       color: rgb(32,108,90);
+       padding-bottom: 30px;
+       p{
+        
+        font-family: 'Crimson Text', serif;
+        font-style: italic;
+    }
+    h3{
+        font-family: 'Quicksand', sans-serif;
+
+    }
+    }
+    
+}

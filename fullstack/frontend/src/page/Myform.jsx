@@ -1,6 +1,24 @@
 import React from "react";
-import "../page/form.scss"
+import "../page/form.scss";
+import axios from "axios";
+import { useEffect } from "react";
+import { useState } from "react";
 const Myform = () => {
+  const [state, setState] = useState({
+    image: "",
+    name: "",
+    price: "",
+  });
+  const addData = async () => {
+    if (!state.image || !state.name || !state.price)
+      await axios.post("http://localhost:8080/product", state);
+  };
+  const handleChange = async (e) => {
+    setState({ ...state, [e.target.name]: e.target.value });
+  };
+  useEffect(() => {
+    addData();
+  }, []);
   return (
     <div>
       <div className="form">
@@ -9,10 +27,30 @@ const Myform = () => {
             <div className="col-12">
               <form action="" className="myform">
                 <h2>Add Product</h2>
-                <input type="text" name="image" placeholder="Image..." />
-                <input type="text" name="name" placeholder="Name..." />
-                <input type="text" name="price" placeholder="Price..." />
-                <button type="submit">Add</button>
+                <input
+                  type="text"
+                  name="image"
+                  value={state.image}
+                  onChange={handleChange}
+                  placeholder="Image..."
+                />
+                <input
+                  type="text"
+                  name="name"
+                  value={state.name}
+                  onChange={handleChange}
+                  placeholder="Name..."
+                />
+                <input
+                  type="text"
+                  name="price"
+                  value={state.price}
+                  onChange={handleChange}
+                  placeholder="Price..."
+                />
+                <button type="submit" onClick={addData}>
+                  Add
+                </button>
               </form>
             </div>
           </div>

@@ -9,6 +9,7 @@
     .lists{
         list-style: none;
         display: flex;
+        justify-content:end;
         padding-top: 7px;
       .list{
           padding-right: 10px;
@@ -18,8 +19,5 @@
         text-decoration: none;
     }
     }
-    .nav_logo{
-        display: flex;
-        justify-content: start;
-    }
+    
 }
