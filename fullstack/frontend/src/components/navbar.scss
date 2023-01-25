@@ -1,0 +1,25 @@
+.navbar{
+  position: absolute;
+  width: 100%;
+    z-index: 99;
+    opacity: 0.9;
+    top:0;
+    background-color: rgb(32,108,90);
+    color: white;
+    .lists{
+        list-style: none;
+        display: flex;
+        padding-top: 7px;
+      .list{
+          padding-right: 10px;
+      }
+      .link{
+        color: white;
+        text-decoration: none;
+    }
+    }
+    .nav_logo{
+        display: flex;
+        justify-content: start;
+    }
+}

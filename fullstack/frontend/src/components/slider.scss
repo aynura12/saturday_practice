@@ -1,0 +1,41 @@
+.slider{
+    height: 100vh;
+    width: 100%;
+   
+    .slider1{
+        background: url("https://mobirise.com/extensions/floram4/floral-studio/assets/images/sl4.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+       
+      
+    }
+    .slider2{
+        background: url("https://mobirise.com/extensions/floram4/floral-studio/assets/images/sl7.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .slider3{
+        background: url("https://mobirise.com/extensions/floram4/floral-studio/assets/images/sl1-967x725.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .slider_text{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+       text-align: center;
+       padding: 250px;
+       color: rgb(32,108,90);
+       p{
+        font-family: 'Crimson Text', serif;
+        font-style: italic;
+       }
+       h1{
+        font-family: 'Quicksand', sans-serif;
+       }
+       }
+}

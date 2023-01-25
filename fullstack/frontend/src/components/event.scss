@@ -1,0 +1,41 @@
+.event{
+    background-color: rgb(251,242,235);
+    width: 100%;
+    height: 100%;
+    padding: 100px 100px;
+    .event_text{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        color: rgb(32,108,90);
+        p{
+            font-family: 'Crimson Text', serif;
+            font-style: italic;  
+        }
+        h1{
+            font-family: 'Quicksand', sans-serif;
+        }
+        }
+
+        .card{
+            padding: 80px 50px;
+            border: 1px solid   rgb(32,108,90);;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            color: rgb(32,108,90);
+            background-color: rgb(254,241,230);
+            font-family: 'Quicksand', sans-serif;
+            gap:20px;
+           
+            button{
+            background-color: rgb(235,241,231);
+            width: 130px;
+            height: 40px;
+            border: none;
+            color: rgb(32,108,90);
+            }
+        }
+    }

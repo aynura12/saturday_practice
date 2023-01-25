@@ -1,0 +1,25 @@
+.mission{
+    background-color: rgb(235,241,231);
+    width: 100%;
+    height: 100%;
+    padding: 100px 100px;
+    .mission_text{
+        padding: 150px 100px;
+        color: white;
+        font-family: 'Quicksand', sans-serif;
+        button{
+            background-color: rgb(235,241,231);
+            width: 100px;
+            height: 40px;
+            border: none;
+            color: rgb(32,108,90);
+            
+        }
+    }
+    .mission_left{
+        background-color: rgb(32,108,90)!important;
+        height: 500px;
+        width: 500px;
+
+    }
+}

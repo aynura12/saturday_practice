@@ -1,0 +1,44 @@
+.footer{
+    background-color: rgb(224,236,220);
+    height: 30vh;
+    width: 100%;
+    display: flex;
+ color:rgb(31, 70, 18) ;
+    align-items: center;
+    justify-content: center;
+    button{
+        background-color: rgb(216,227,213);
+        border: none;
+        width:100px ;
+        height: 40px;
+    }
+    input{
+        background-color: rgb(224,236,220);
+        font-family: 'Crimson Text', serif;
+        font-style: italic; 
+        border: none;
+        width:150px ;
+        height: 40px;
+    }
+    .email{
+        width:300px;
+        border-bottom:1px solid rgb(14, 51, 14);
+        display: flex;
+        justify-content: space-between;
+    }
+    li{
+        list-style: none;
+    }
+    a{
+        text-decoration: none;
+        color:rgb(31, 70, 18) ;
+        font-family: 'Crimson Text', serif;
+        font-style: italic; 
+
+    }
+    .footer_list{
+        padding-left: 100px;
+    }
+   
+
+}
