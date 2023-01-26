@@ -3,6 +3,7 @@ import "../page/form.scss";
 import axios from "axios";
 import { useEffect } from "react";
 import { useState } from "react";
+import {Helmet} from "react-helmet"
 const Myform = () => {
   const [state, setState] = useState({
     image: "",
@@ -21,6 +22,7 @@ const Myform = () => {
   }, []);
   return (
     <div>
+      <Helmet><title>Add</title></Helmet>
       <div className="form">
         <div className="container">
           <div className="row">
